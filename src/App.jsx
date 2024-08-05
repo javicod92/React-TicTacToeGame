@@ -4,7 +4,6 @@ import { Square } from "./components/Square.jsx"
 import { TURNS } from "./constants.js"
 import { checkWinnerFrom, checkEndGame } from "./logic/board.js"
 import { WinnerModal } from "./components/WinnerModal.jsx"
-import './App.css'
 
 function App() {
   const [board, setBoard] = useState(
